@@ -41,7 +41,7 @@ $.get("http://api.wunderground.com/api/bc83691ee725e7bb/geolookup/conditions/hou
    $(".girlsBot").append("<img src='img/girlsBotLightWarm.png'></img>");
    $(".girlsShoe").append("<img src='img/girlsShoeLightWarm.png'></img>");
   } else if(temp_c <20) {
-    $(".indicator").css("background", "#ffe632");
+    $(".indicator").css("background", "rgba(255, 230, 50, 0.5)");
    $(".boysHead").append("<img src='img/boysHeadStrongWarm.png'></img>");
    $(".boysTop").append("<img src='img/boysTopStrongWarm.png'></img>");
    $(".boysBot").append("<img src='img/boysBotStrongWarm.png'></img>");
